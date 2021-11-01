@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div><p id="main"></p></div>
-    <div>
-        <p>event.key</p>
+    <div class="inline">
+      <div class="events">
+        <p class="top"><strong>event.key</strong></p>
         <p id="key"></p>
-    </div>
-
-    <div>
-        <p>event.which</p>
-        <p id="which"></p>
-    </div>
-    <div>
-        <p>event.code</p>
+      </div>
+      <div class="events">
+        <p class="top"><strong>event.code</strong></p>
         <p id="code"></p>
+      </div>
+    
+    <div class="events">
+      <p class="top"><strong>event.which</strong></p>
+      <p id="which"></p>
     </div>
+</div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
